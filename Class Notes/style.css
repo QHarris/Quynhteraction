@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"wanted.ttf";
+    src:url(wanted.ttf);
+}
+
+.typeface{
+    font-family: "wanted.ttf";
+}
+
+#box1{
+    width:300px;
+    height:200px;
+    background-color: pink;
+    position: relative;
+}
+
+#box2{
+    width:100px;
+    height:200px;
+    background-color: hotpink;
+    position:fixed;
+    left:10px;
+    right:10px;
+}
+
+#box3{
+    width:100px;
+    height:100px;
+    background-color: black
+}
+
+.boxes{
+    width: 300px;
+    height: 300px;
+    background-color: deeppink;
+    position: relative;
+}
+
+#sticky-box{
+    position: sticky;
+    top: 20px;
+    background-color: lavenderblush;
+    z-index: 1;
+}
