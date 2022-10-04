@@ -1,0 +1,42 @@
+*
+{
+    color: darkgray;
+    background: black;
+    font-family: monospace;
+    font-weight: 600
+}
+
+body{
+    background-image: url(night.jpg)
+}
+
+body{
+    text-align: center
+}
+
+h1{
+    line-height: .25em;
+    font-size: 50px
+}
+
+.message{
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.alien{
+    font-size: 14px;
+}
+
+.cosmo{
+   font-size: 14px; 
+}
+
+.martian{
+   font-size: 14px; 
+}
+
+h3{
+    margin-top: 70px;
+    font-size: 20px
+}

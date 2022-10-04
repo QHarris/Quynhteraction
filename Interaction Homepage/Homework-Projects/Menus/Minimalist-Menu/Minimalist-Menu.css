@@ -1,0 +1,62 @@
+*
+{
+    color: black;
+    background: white;
+    font-family: serif;
+    font-weight: 200
+}
+
+body{
+    text-align: center
+}
+
+h1{
+    line-height: 2em  
+}
+
+/*
+h5{
+    line-height: .5em
+}
+*/
+
+/*
+p{
+    line-height: .5em;
+    margin-bottom: 32px
+}
+*/
+
+.app{
+    font-size: 15px;
+    line-height: 8px;
+    margin-bottom: 10px
+}
+
+.salad{
+    font-size: 15px;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-top: 50px
+}
+
+.entrees{
+    font-size: 15px;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-top: 50px
+}
+
+.dessert{
+    font-size: 15px;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-top: 50px
+}
+
+.footer{
+    font-size: 18px;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
