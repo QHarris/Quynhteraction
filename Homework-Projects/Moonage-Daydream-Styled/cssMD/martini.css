@@ -1,0 +1,51 @@
+body {
+ background-image: url("../space_images/bar.jpg");
+ background-color: #000000;
+font-family: monospace;
+text-align: center;
+background-size: 100%;
+}
+
+body {
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: mediumslateblue;
+}
+
+/* selected link */
+a:active {
+  color: orangered;
+}
+
+img {
+  border-radius: 20%;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h3{
+    font-size: 20px;
+}

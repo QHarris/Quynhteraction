@@ -1,0 +1,46 @@
+body {
+ background-image: url("../space_images/stars.jpg");
+ background-color: #000000;
+font-family: monospace;
+text-align: center;
+}
+
+body {
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: ghostwhite;
+}
+
+/* visited link */
+a:visited {
+  color: lightskyblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: mediumslateblue;
+}
+
+/* selected link */
+a:active {
+  color: orangered;
+}
+
+img {
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

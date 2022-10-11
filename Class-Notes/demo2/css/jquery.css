@@ -1,0 +1,19 @@
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+#box1.redbox{
+    background-color: red;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue; 
+}
+#box2.redbox{
+    background-color: red;
+}
