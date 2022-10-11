@@ -1,0 +1,63 @@
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: lightyellow;
+}
+
+h3{
+    display: inline;
+    font-size: 45px;
+    border-bottom: 20px;
+    text-align: center;
+}
+
+body {background-color: mistyrose;
+/*    background-image: url(garden-bckg.jpg);*/
+}
+
+a{
+    font-size: 20px;
+    text-align: left;
+    line-height: 2.5em;
+/*    margin-left: 22em;*/
+}
+
+body {
+    color: white;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;  
+}
+
+.title{
+    text-align: center;
+}
+
+/*
+.box{   
+    display: inline-block;
+    width: 50px;
+    border: 3px solid #ffffff;
+    text-align: center;
+}
+*/
+
+img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width:940px;
+    height: auto;
+}
