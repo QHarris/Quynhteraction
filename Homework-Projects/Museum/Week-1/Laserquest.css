@@ -6,11 +6,14 @@
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(laserquest-main.jpg);
+      background-size: 100%;
+      color: white
 }
 
 img {
@@ -123,4 +126,139 @@ span:nth-child(20) {
     opacity: 1;
     filter: blur(0);
   }
+}
+
+.container:hover span:nth-child(1) {
+    color: transparent;
+/*    text-shadow: 0px 0px 20px black,0 0 20px #a2a39f;*/
+    transition: 2s;
+    font-size: .1em;
+}
+
+.container:hover span:nth-child(2) {
+    color: transparent;
+/*    text-shadow: 0px 0px 25px black,0 0 30px #a2a39f;*/
+    transition: 2.1s;
+    font-size: .2em;
+}
+
+.container:hover span:nth-child(3) {
+    color: transparent;
+/*    text-shadow: 0px 0px 30px black,0 0 40px #a2a39f;*/
+    transition: 2.2s;
+    font-size: .3em;
+}
+.container:hover span:nth-child(4) {
+    color: transparent;
+/*    text-shadow: 0 0 60px #000;*/
+    transition: 2.3s;
+    font-size: .4em;
+}
+.container:hover span:nth-child(5) {
+    color: transparent;
+/*    text-shadow: 0 0 70px #000;*/
+    transition: 2.4s;
+    font-size: .5em;
+}
+.container:hover span:nth-child(6) {
+    color: transparent;
+/*    text-shadow: 0 0 80px #000;*/
+    transition:2.5s;
+    font-size: .6em;
+}
+.container:hover span:nth-child(7) {
+    color: transparent;
+/*    text-shadow: 0 0 90px #000;*/
+    transition: 2.6s;
+    font-size: .7em;
+}
+.container:hover span:nth-child(8) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 2.7s;
+    font-size: .8em;
+}
+
+.container:hover span:nth-child(9) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 2.8s;
+    font-size: .9em;
+}
+
+.container:hover span:nth-child(10) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 2.9s;
+    font-size: 1em;
+}
+
+.container:hover span:nth-child(11) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3s;
+    font-size: 1.1em;
+}
+
+.container:hover span:nth-child(12) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.1s;
+    font-size: 1.2em;
+}
+
+.container:hover span:nth-child(13) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.2s;
+    font-size: 1.3em;
+}
+
+.container:hover span:nth-child(14) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.3s;
+    font-size: 1.4em;
+}
+
+.container:hover span:nth-child(15) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.4s;
+    font-size: 1.5em;
+}
+
+.container:hover span:nth-child(16) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.5s;
+    font-size: 1.6em;
+}
+
+.container:hover span:nth-child(17) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.6s;
+    font-size: 1.7em;
+}
+
+.container:hover span:nth-child(18) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.7s;
+    font-size: 1.8em;
+}
+
+.container:hover span:nth-child(19) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.8s;
+    font-size: 1.9em;
+}
+
+.container:hover span:nth-child(20) {
+    color: transparent;
+/*    text-shadow: 0 0 100px #000;*/
+    transition: 3.9s;
+    font-size: 2em;
 }
