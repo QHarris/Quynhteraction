@@ -1,45 +1,74 @@
-/*
-.class{
-    width: 3em;
-    width: 5%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}*/
-
-.overall{
-    width: 62%;
-/*    height: auto;*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    padding-right: 0px;
-    padding-top: 0px;
-    margin-top: 0px;
-    position: absolute;
-    z-index: 1;
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+.laserquest{
+    display: flex;
+    justify-content: space-between;
+    max-width: 10%;
+    height: auto;
+}
+*/
+
+/*
+.eqi-container {
+  border: 10px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.eqi-container div {
+  width: 100px;
+  height: 100px;
+  background: white;
+}
+*/
 /*
 
-.laserquest{
-    max-width: 100%;
-    height: auto;
-    position top: auto;
-    position bottom: 2000px;
-    z-index: 100;
+#movers-row {
+	margin: -120px 0 0 120px;
+}
+#movers-row div {
+	width: 33.3%;
+	float: left;
+}
+#movers-row div img {
+	float: right;
 }*/
 
-/*.laserquest{*/
-/*    margin: 90px;*/
-/*    float: left;*/
-/*    padding-bottom: 3000px;*/
-    margin-top: 0px;
-    margin-bottom: 0px;
-    max-width: 300px;
-    height: auto;
-    position: absolute;
-    z-index: 100;   
+#container {
+  height: 125px;
+  text-align: justify;
+  font-size: 0.1px; /* IE 9 & 10 don't like font-size: 0; */
+  min-width: 600px;
+}
+#container div {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  background: white;
+}
+#container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+.one{
+    max-width: 250px;
+    height: 250px;
 }
