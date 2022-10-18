@@ -1,0 +1,95 @@
+body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(meetingplace-background.jpg);
+      background-size: 100%;
+    color: white;
+}
+
+.text{
+    max-height: 700px;
+    width: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    z-index: 100;
+}
+
+.figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+  }
+
+/*
+.shape1b{
+    max-height:100%;
+    width: auto;
+    position: fixed;
+    bottom: 500px;
+    right: 1100px;
+    width: 300px;
+}
+
+.shape1a:hover:after{
+    max-height:100%;
+    width: auto;
+    position: fixed;
+    bottom: 500px;
+    right: 1100px;
+    width: 300px;
+    background-image: url(image-elements/Website%20Auras-06.png)
+}
+*/
+
+.shape2b{
+    max-height:100%;
+    width: auto;
+    position: fixed;
+    bottom: 400px;
+    right: 100px;
+    width: 300px;
+}
+
+.shape3b{
+    max-height:100%;
+    width: auto;
+    position: fixed;
+    bottom: 50px;
+    right: 140px;
+    width: 300px;
+}
+
+.shape4b{
+    max-height:100%;
+    width: auto;
+    position: fixed;
+    bottom: 250px;
+    right: 600px;
+    width: 300px;
+}
+
+.shape5b{
+    max-height:100%;
+    width: auto;
+    position: fixed;
+    bottom: 50px;
+    right: 900px;
+    width: 300px;
+}
