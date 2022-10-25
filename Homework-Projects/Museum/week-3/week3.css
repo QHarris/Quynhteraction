@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+del {
+    background: #fff;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    z-index: 2;
+}
+
+del:hover{
+    color: #000;
+    font-size: 24px;
+    font-family: serif;
+    position: absolute;
+    z-index: 2;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    padding-top: 0px;
+    padding-left: 280px;
+    position: absolute;
+    z-index: 1;
+}

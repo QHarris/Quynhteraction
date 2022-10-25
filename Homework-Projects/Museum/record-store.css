@@ -14,7 +14,7 @@
     padding-top: 287px;
     padding-left: 589px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 
 .laser{
@@ -25,4 +25,15 @@
     padding-left: 665px;
     position: absolute;
     z-index: 3;
+}
+
+.lights{
+    width: 150px;
+    height: auto;
+    display: block;
+    padding-top: 379px;
+    padding-left: 760px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 2;
 }
