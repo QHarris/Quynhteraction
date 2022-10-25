@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+font-family: 'Cedarville Cursive', cursive;
 
 * {
   padding: 0;
@@ -13,7 +14,8 @@ body {
       align-items: center;
       background-image: url(laserquest-main.jpg);
       background-size: 100%;
-      color: white
+      color: white;
+      font-family: 'Cedarville Cursive', cursive;
 }
 
 img {

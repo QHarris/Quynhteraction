@@ -1,0 +1,44 @@
+body{
+    font-family: serif;
+    font-style: normal;
+}
+
+.store{
+    max-width: 800px;
+    height: auto;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: darkgray;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: whitesmoke;
+}

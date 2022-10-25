@@ -1,0 +1,28 @@
+.image{
+    width: 65%;
+    height: auto;
+    padding-top: 0px;
+    padding-left: 250px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mp{
+    width: 170px;
+    height: auto;
+    display: block;
+    padding-top: 287px;
+    padding-left: 589px;
+    position: absolute;
+    z-index: 2;
+}
+
+.laser{
+    width: 160px;
+    height: auto;
+    display: block;
+    padding-top: 232px;
+    padding-left: 665px;
+    position: absolute;
+    z-index: 3;
+}
