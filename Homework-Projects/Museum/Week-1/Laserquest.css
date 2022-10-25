@@ -12,9 +12,9 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-image: url(laserquest-main.jpg);
+/*      background-image: url(laserquest-main.jpg);*/
       background-size: 100%;
-      color: white;
+      color: black;
       font-family: 'Cedarville Cursive', cursive;
 }
 
