@@ -28,11 +28,11 @@
 }
 
 .lights{
-    width: 150px;
+    width: 130px;
     height: auto;
     display: block;
-    padding-top: 379px;
-    padding-left: 760px;
+    padding-top: 383px;
+    padding-left: 770px;
     position: absolute;
     object-fit: contain;
     z-index: 2;

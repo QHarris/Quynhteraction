@@ -1,5 +1,7 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 font-family: 'Cedarville Cursive', cursive;
+*/
 
 * {
   padding: 0;
@@ -25,7 +27,7 @@ img {
 }
 
 h1 {
-  font-family: "Montserrat Medium";
+  font-family: serif;
   max-width: 40ch;
   text-align: center;
   transform: scale(0.94);

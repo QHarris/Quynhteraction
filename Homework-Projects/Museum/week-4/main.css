@@ -1,0 +1,44 @@
+/*
+.card {
+    width: 130px;
+    height: 195px;
+    background: url("../museum-images/laserquest-thumbnail.jpg") no-repeat;
+    margin: 50px;           
+}
+
+.card:hover {
+    width: 130px;
+    height: 195px;
+    background: url("../museum-images/store-full.jpg") no-repeat;
+}*/
+
+.discowords{
+    text-align: right;
+}
+
+.bakery-black{
+    max-height: 500px;
+    width: auto;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    display: inline-block;
+
+}
+
+.bakery:hover{
+    max-height: 500px;
+    width: auto;
+    position: absolute;
+    padding-top: 100px;
+    background-image: url(backery-blue.png);
+}
+
+.disco-black{
+    max-height: 500px;
+    width: auto;
+    position: absolute;
+    padding-left: 1000px;
+    padding-top: 100px;
+    display: inline-block;
+}

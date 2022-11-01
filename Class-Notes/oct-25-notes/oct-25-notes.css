@@ -1,0 +1,61 @@
+/*
+#prepend-btn{
+    width:auto;
+    height:auto;
+    position:fixed;
+    left: 300px;
+    top:10px;
+    border: solid 1px black;
+}
+
+#append-btn{
+    width:auto;
+    height:auto;
+    position:fixed;
+    left:400px;
+    top:10px;
+    border: solid 1px black;
+}
+
+#box1{
+    width:100px;
+    height:100px;
+    background-color:red;
+}
+
+.newbox{
+    width:100px;
+    height:100px;
+    background-color:blue;
+}
+
+#stop{
+    width: 100px;
+    height: 100px;
+    border: black 2px solid;
+}
+
+#colorchange{
+    width: 400px;
+    height: 100px;
+    border: black 2px solid;
+}*/
+
+
+#div1{
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    border:10px black solid;
+    padding: 10px;
+    box-sizing:border-box;
+}
+#div2{
+    background-color:blue;
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    border:10px black solid;
+    padding: 10px;
+}

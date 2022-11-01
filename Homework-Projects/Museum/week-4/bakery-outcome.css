@@ -1,0 +1,14 @@
+img{
+    max-width: 550px;
+    height: auto;
+    position: absolute;
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+p{
+    font-size: 24px;
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 500px;
+}
