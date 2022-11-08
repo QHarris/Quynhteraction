@@ -8,21 +8,26 @@
 }
 
 .mp{
-    width: 170px;
-    height: auto;
-    display: block;
-    padding-top: 287px;
-    padding-left: 589px;
-    position: absolute;
-    z-index: 3;
-}
-
-.laser{
     width: 160px;
     height: auto;
     display: block;
-    padding-top: 232px;
-    padding-left: 665px;
+    padding-top: 288px;
+    padding-left: 595px;
+    position: absolute;
+    z-index: 2;
+}
+
+#laserdiv{
+    width: 162px;
+    height: auto;
+}
+
+.laser{
+    width: 156px;
+    height: auto;
+    display: block;
+    padding-top: 233px;
+    padding-left: 668px;
     position: absolute;
     z-index: 3;
 }
@@ -35,5 +40,32 @@
     padding-left: 770px;
     position: absolute;
     object-fit: contain;
-    z-index: 2;
+    z-index: 4;
+}
+
+.bakery{
+    width: 110px;
+    height: auto;
+    display: block;
+    padding-top: 197px;
+    padding-left: 352px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 5;
+}
+
+#mirrorball{
+    height: 40px;
+    width: 80px;
+}
+
+.mirrorball{
+    width: 110px;
+    height: auto;
+    display: block;
+    padding-top: 318px;
+    padding-left: 820px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 6;
 }

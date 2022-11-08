@@ -1,0 +1,167 @@
+#still_life_canvas{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    width: 1400px;
+    height: 700px;
+    background-color: whitesmoke;
+}
+
+#rubberband{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    border: antiquewhite solid 5px;
+    border-radius: 50%;
+}
+
+#pencil{
+    width: 395px;
+    height: 10px;
+    position: absolute;
+    top: 390px;
+    left: 220px;
+    background-color: grey;
+    transform:rotateZ(5deg);
+}
+
+#pencilbody{
+    position: absolute;
+    left: 40px;
+    height: 100%;
+    width: 360px;
+    background-color:forestgreen;
+}
+
+#pencilbeige{
+    height: 100%;
+    width: 25px;
+    background-color: burlywood;
+    position: absolute;
+    left: 375px;
+}
+
+#penciltip{
+    box-sizing: border-box;
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    left: 400px;
+    border-left: 20px solid darkslategrey;
+    border-right: 20px solid rgba(0,0,0,0);
+    border-bottom: 5px solid rgba(0,0,0,0);
+    border-top: 5px solid rgba(0,0,0,0);
+    
+}
+
+#metal{
+    height: 100%;
+    width: 40px;
+    position: absolute;
+    left: 0px;
+    background-image: linear-gradient(to bottom, rgba(10,10,10,1), rgba(225,225,225,1), rgba(30,30,30,1))
+}
+        
+#metal2{
+    height: 100%;
+    width: 6px;
+    position: absolute;
+    left: -3px;
+    background-image: linear-gradient(to bottom right, rgba(10,10,10,1), rgba(225,225,225,1), rgba(30,30,30,1));
+    border-radius: 50%;
+}
+
+#peach{
+    position: absolute;
+    right:130px;
+    bottom:100px;
+    width:150px;
+    height:130px;/*
+    background-color: white;*/
+}
+
+#peachleft{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    border-top-left-radius: 100% 60%;
+    border-bottom-left-radius: 30% 30%;
+    border-bottom-right-radius: 15% 10%;
+    background-image: linear-gradient(to bottom,#ff8888,#ffbb55)
+    
+}
+
+#peachright{
+    position: absolute;
+    left: 60%;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+    border-top-right-radius: 100% 60%;
+    border-bottom-right-radius: 30% 30%;
+    border-bottom-left-radius: 15% 10%;
+    background-image: linear-gradient(to bottom,#ff8888,#ffff88)
+    
+}
+
+#waterbottle{
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    left: 470px;
+    top: 30px;
+}
+
+#bottlebody{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(to right, #888888, #bbbbbb, #888888);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100% 15%;
+    border-bottom-right-radius: 100% 15%;
+}
+
+#bottlebottom{
+    background-color: #333333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+#bottlecap{
+    z-index: 2;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 12%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    background-image: linear-gradient(to right, #000000, #666666, #000000)
+}
+
+#captop{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: darkgrey;
+    border-radius: 50%;
+}

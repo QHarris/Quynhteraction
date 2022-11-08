@@ -12,6 +12,7 @@
     background: url("../museum-images/store-full.jpg") no-repeat;
 }*/
 
+
 .discowords{
     text-align: right;
 }
@@ -41,4 +42,16 @@
     left: 1000px;
     top: 100px;
     display: inline-block;
+}
+
+#bakery-b{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    background-image: url(bakery-black.png);
+        background-repeat:  no-repeat;
+    background-position: center;
+    background-size: contain;
 }
