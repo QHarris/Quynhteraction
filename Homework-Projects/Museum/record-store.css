@@ -1,8 +1,16 @@
-.image{
+.bckg{
     width: 65%;
     height: auto;
-    padding-top: 0px;
-    padding-left: 250px;
+    top: 0px;
+    left: 250px;
+    position: absolute;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    top: 7px;
+    left: 10px;
     position: absolute;
     z-index: 1;
 }
@@ -11,8 +19,8 @@
     width: 160px;
     height: auto;
     display: block;
-    padding-top: 288px;
-    padding-left: 595px;
+    top: 240%;
+    left: 80%;
     position: absolute;
     z-index: 2;
 }
@@ -26,8 +34,8 @@
     width: 156px;
     height: auto;
     display: block;
-    padding-top: 233px;
-    padding-left: 668px;
+    top: 233px;
+    left: 668px;
     position: absolute;
     z-index: 3;
 }
@@ -36,8 +44,8 @@
     width: 130px;
     height: auto;
     display: block;
-    padding-top: 383px;
-    padding-left: 770px;
+    top: 383px;
+    left: 770px;
     position: absolute;
     object-fit: contain;
     z-index: 4;
@@ -47,8 +55,8 @@
     width: 110px;
     height: auto;
     display: block;
-    padding-top: 197px;
-    padding-left: 352px;
+    top: 197px;
+    left: 352px;
     position: absolute;
     object-fit: contain;
     z-index: 5;
@@ -63,8 +71,8 @@
     width: 110px;
     height: auto;
     display: block;
-    padding-top: 318px;
-    padding-left: 820px;
+    top: 318px;
+    left: 820px;
     position: absolute;
     object-fit: contain;
     z-index: 6;
