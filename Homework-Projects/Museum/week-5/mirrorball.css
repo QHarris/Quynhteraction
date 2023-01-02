@@ -57,7 +57,8 @@ body{
 }
 
 .btn:hover {
-    background-color: #ffd8cc;
+/*    background-color: #ffd8cc;*/
+    background-color: pink;
     color: white;
     opacity: .9;
     transition: 3s;
@@ -154,8 +155,6 @@ span:nth-child(16) {
     opacity: 1;
     filter: blur(0);
   }
-
-
 
 .overall {
   animation: fadeIn ease 10s;

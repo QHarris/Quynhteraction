@@ -1,6 +1,6 @@
 .bckg{
     width: 65%;
-    height: auto;
+    height: 65vw;
     top: 0px;
     left: 250px;
     position: absolute;
@@ -19,8 +19,8 @@
     width: 160px;
     height: auto;
     display: block;
-    top: 60%;
-    left: 16%;
+    top: 31.25%;
+    left: 38%;
     position: absolute;
     z-index: 2;
 }
@@ -34,8 +34,8 @@
     width: 156px;
     height: auto;
     display: block;
-    top: 233px;
-    left: 668px;
+    top: 25.2%;
+    left: 45.8%;
     position: absolute;
     z-index: 3;
 }
@@ -44,8 +44,8 @@
     width: 130px;
     height: auto;
     display: block;
-    top: 383px;
-    left: 770px;
+    top: 41.3%;
+    left: 56.8%;
     position: absolute;
     object-fit: contain;
     z-index: 4;
@@ -55,25 +55,36 @@
     width: 110px;
     height: auto;
     display: block;
-    top: 197px;
-    left: 352px;
+    top: 21.55%;
+    left: 12%;
     position: absolute;
     object-fit: contain;
     z-index: 5;
 }
 
 #mirrorball{
-    height: 40px;
-    width: 80px;
+    height: 35px;
+    width:70px;
 }
 
 .mirrorball{
     width: 110px;
     height: auto;
     display: block;
-    top: 318px;
-    left: 820px;
+    top: 34.3%;
+    left: 62%;
     position: absolute;
     object-fit: contain;
     z-index: 6;
+}
+
+.ultra{
+    width: 110px;
+    height: auto;
+    display: block;
+    top: 31.5%;
+    left: 12.12%;
+    position: absolute;
+    object-fit: contain;
+    z-index: 7;
 }
